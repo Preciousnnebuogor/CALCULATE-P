@@ -24,6 +24,11 @@ if (true) {
 
 let country = "Nigeria"
 let age = 80
-if (age > 20 && country == "Nigeria") {
+if (age > 90 && country == "Nigeria") {
     console.log("Nigeria my country")
-} 
+} else if (age > 10 && country == "Nigeria") {
+    console.log("good to go")
+}
+else {
+    console.log("you are wrong")
+}
