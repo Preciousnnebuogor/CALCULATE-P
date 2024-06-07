@@ -11,3 +11,20 @@ switch (typeof value) {
         console.log("fail")
         break;
 }
+
+let dayName = 2
+switch (dayName) {
+    case 1: 
+        console.log("monday")
+        
+        break;
+        case 2:
+            console.log("tuesday")
+            
+            break;
+    
+    default:
+        console.log("sunday") 
+        break;
+}
+console.log("this is " + dayName)
