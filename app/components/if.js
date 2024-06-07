@@ -1,13 +1,13 @@
-let favour = 50;
+/*let favour = 50;
 if (favour < 20) {
   console.log("i am okay");
 } else if (favour > 10) {
   console.log("meaning what");
 } else {
   console.log("fuck you");
-}
-
-function Glass(a, b) {
+} */
+// adding a function you must call a function
+/*function Glass(a, b) {
   if (a === 1) {
     if (b === 2) {
       console.log(" a is 1 and b is 2");
@@ -16,4 +16,14 @@ function Glass(a, b) {
     console.log("not correct");
   }
 }
-Glass()
+Glass() */
+
+if (true) {
+    console.log("correct")
+}
+
+let country = "Nigeria"
+let age = 80
+if (age > 20 && country == "Nigeria") {
+    console.log("Nigeria my country")
+} 
