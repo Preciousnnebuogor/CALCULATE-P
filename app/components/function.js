@@ -34,6 +34,15 @@ console.log(validEmail("bro@fak")) */
 
 
   function emailValue(a,b){
-    console.log(a +b)
+    return a+b
   }
-  emailValue("2","3")
+ console.log(emailValue(2,3))
+  
+// arrow function
+ setTimeout( () => {
+console.log("i am here")
+ },3000)
+// function expresion
+ setTimeout(function () {
+     console.log("i love you")
+ },3000)
