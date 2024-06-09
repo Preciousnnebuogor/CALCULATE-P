@@ -13,7 +13,7 @@ peter() */
 Name(26,"Precious")
 Name(12,"Blessing") */
 
-function isEven(number){
+/*function isEven(number){
     if(number % 2 === 0) {
         return true
     } else {
@@ -26,3 +26,14 @@ function isOdd(number){
   return  number % 2 === 1? true :false
 }
 console.log(isOdd(5))
+
+function validEmail(){
+    return email.includes("@")? true : false
+}
+console.log(validEmail("bro@fak")) */
+
+
+  function emailValue(a,b){
+    console.log(a +b)
+  }
+  emailValue("2","3")
