@@ -29,20 +29,23 @@ console.log(isOdd(5))
 
 function validEmail(){
     return email.includes("@")? true : false
-}
+}  
 console.log(validEmail("bro@fak")) */
 
 
-  function emailValue(a,b){
-    return a+b
-  }
- console.log(emailValue(2,3))
+//   function emailValue(a,b){
+//     return a+b
+//   }
+//  console.log(emailValue(2,3))
   
-// arrow function
- setTimeout( () => {
-console.log("i am here")
- },3000)
-// function expresion
- setTimeout(function () {
-     console.log("i love you")
- },3000)
+// // arrow function
+//  setTimeout( () => {
+// console.log("i am here")
+//  },3000)
+// // function expresion
+//  setTimeout(function () {
+//      console.log("i love you")
+//  },3000)
+
+const numbers = [1,2,3,4,5,6]
+
